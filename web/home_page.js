@@ -8,7 +8,7 @@ class IG_link extends HTMLElement{
     const template = document.createElement("template");
     template.innerHTML = `
       <a href = "https://www.youtube.com/" rel = "noopener" target = "_blank">
-        <img class = "IG_img" src = "instagram-logo.webp" alt = "IG_LINK">
+        <img class = "IG_img" src = "images/instagram-logo.webp" alt = "IG_LINK">
       </a>`;
       this.attachShadow({mode: 'open'}).appendChild(template.content.cloneNode(true));
 
