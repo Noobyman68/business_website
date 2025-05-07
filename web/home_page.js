@@ -19,3 +19,11 @@ class IG_link extends HTMLElement{
   }
 }
 customElements.define("ig-link", IG_link);
+
+window.addEventListener("scroll", function() {
+  let maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+  if (window.scrollY > maxScroll) {
+      window.scrollTo(0, maxScroll);
+  }
+});
+

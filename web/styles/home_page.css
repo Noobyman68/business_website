@@ -6,6 +6,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+  overscroll-behavior: auto none;
 }
 
 .header{
@@ -29,7 +30,6 @@
 }
 
 .center{
-  background-color: lightblue;
   position: relative;
   left: 0px;
   right: 0px;
@@ -45,4 +45,20 @@
 
 .center-text{
   font-size: 45px;
+}
+
+.bottom{
+  text-align: center;
+  margin-top: 1000px;
+  position: relative;
+  z-index: 100;
+}
+
+.bottom div{
+  font-size: 40px;
+}
+
+
+.bottom-space{
+  height: 120px;
 }
