@@ -6,7 +6,6 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  overscroll-behavior: auto none;
 }
 
 .header{
@@ -48,17 +47,39 @@
 }
 
 .bottom{
-  text-align: center;
-  margin-top: 1000px;
-  position: relative;
-  z-index: 100;
+  margin-top: 1500px;
 }
 
-.bottom div{
-  font-size: 40px;
+.ContactX, .portfolio, .testemonials, .about-us{
+  text-align: center;
+  z-index: 100;
+  font-size: 45px;
+  position: sticky;
+
 }
+
+.ContactX{
+  top:50%;
+}
+.portfolio{
+  top: 55%;
+  margin-top: 300px;
+}
+.testemonials{
+  top: 60%;
+  margin-top: 300px;
+
+}
+.about-us{
+  top: 65%;
+    margin-top: 300px;
+
+}
+
+
+
 
 
 .bottom-space{
-  height: 120px;
+  height: 800px;
 }
