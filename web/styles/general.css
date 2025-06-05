@@ -1,6 +1,26 @@
 body{
-    font-family: sans-serif, Arial;
-    font-weight: bold;
-    color: white;
-    height: 2000px;
+  font-family: sans-serif, Arial;
+  font-weight: bold;
+  color: black;
+}
+.header{
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-top: -5px;  
+  width: 90px;
+}
+
+.middle-top{
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.IG_img{
+  width: 75px;
 }

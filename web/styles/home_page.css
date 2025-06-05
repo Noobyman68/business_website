@@ -8,26 +8,7 @@
   left: 0px;
 }
 
-.header{
-  height: 100px;
-  left: 0px;
-  right: 0px;
-  display: flex;
-  justify-content: space-between;
-}
 
-.Logo{
-  width: 90px;
-}
-
-.middle-top{
-  font-size: 30px;
-  margin-top: 15px;
-}
-
-.IG_img{
-  width: 75px;
-}
 
 .top-left-logo{
   margin-left: 15px;
@@ -82,6 +63,6 @@
 }
 
 
-/* .bottom-space{
-  height: 800px;
-} */
+.bottom-space{
+  height: 300px;
+}
