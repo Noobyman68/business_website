@@ -12,12 +12,17 @@
   height: 100px;
   left: 0px;
   right: 0px;
-  display: grid;
-  grid-template-columns: 100px 1fr 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Logo{
   width: 90px;
+}
+
+.middle-top{
+  font-size: 30px;
+  margin-top: 15px;
 }
 
 .IG_img{
@@ -62,24 +67,21 @@
   top:50%;
 }
 .portfolio{
-  top: 55%;
-  margin-top: 300px;
+  top: 60%;
+  margin-top: 350px;
 }
 .testemonials{
-  top: 60%;
+  top: 70%;
   margin-top: 300px;
 
 }
 .about-us{
-  top: 65%;
-    margin-top: 300px;
+  top: 80%;
+    margin-top: 250px;
 
 }
 
 
-
-
-
-.bottom-space{
+/* .bottom-space{
   height: 800px;
-}
+} */
